@@ -5,7 +5,8 @@ int main()
 	//char tab[] = "hallo";
 	//char *tab;
 	//tab = "hallo";
-	char *tab = (char *) malloc(sizeof(char)*9);
+	//char *tab = (char *) malloc(sizeof(char)*1);
+	char *tab = malloc(sizeof(char)*8);
 	char *pom = "hallo";
 	int i = 0;
 	while (pom[i])

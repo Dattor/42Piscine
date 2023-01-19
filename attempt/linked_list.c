@@ -9,7 +9,7 @@
 
 void pass_list(struct s_list *begin)
 {
-	if(!begin)
+	if(!begin) //not necesary
 		return;
 	while (begin)
 	{
